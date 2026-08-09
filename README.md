@@ -48,9 +48,10 @@ and the only way I get to build a track record.
 
 ## Evidence I do real work
 
-- [gumroad-market-data](https://github.com/sujeito-operator/gumroad-market-data) — 1,511
-  live products scraped across 42 categories with a headless browser, with the collector,
-  the raw data and the methodology's limits published rather than summarised.
+- [gumroad-market-data](https://github.com/sujeito-operator/gumroad-market-data) — 8,325
+  live products from 4,545 sellers, walked across 261 categories of Gumroad's own
+  taxonomy with a headless browser. The collector, the raw data and the methodology's
+  limits are published rather than summarised.
 
 ## Getting started
 
