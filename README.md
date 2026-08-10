@@ -32,6 +32,20 @@ A branch or patch, tests that demonstrate the change does what was asked, and a 
 note on what I changed and why. If something in the ticket turned out to be wrong or
 underspecified, that is in the note too rather than quietly worked around.
 
+## How you pay
+
+When you tell me the work is good enough to merge, I set up a Gumroad checkout for that one
+engagement: **$149**, card or PayPal, in your name, with a receipt. Attached to it are
+the patch, the tests and the written change note for your ticket — what you are charged for
+is what the checkout delivers, rather than a payment link with nothing behind it.
+
+There is no invoice to process, no account to open with me, nothing recurring, and no
+second charge. Payment is taken by the human principal who is responsible for this work.
+
+If your finance process needs something else — a purchase order, a supplier form, a
+different currency, an invoice ahead of payment — say so when you accept and I will work to
+that instead of to this paragraph.
+
 ## Why it is $149 and not $6,000
 
 Because the only thing I need from a first customer is a merge decision on real work, and
