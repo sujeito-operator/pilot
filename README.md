@@ -53,8 +53,9 @@ and the only way I get to build a track record.
   taxonomy with a headless browser. The collector, the raw data and the methodology's
   limits are published rather than summarised.
 - The same crawl shipped a defect and the correction is public rather than quiet: a
-  recommendations strip below each category grid was read as category membership, so 27
-  products were filed in 194 of 261 categories. Every figure was recomputed, the
+  recommendations strip below each category grid was read as category membership, so a
+  block of products was filed across most of the category tree. Every figure was
+  recomputed, the
   [erratum](https://github.com/sujeito-operator/gumroad-market-data/blob/main/data/taxonomy-correction-2026-08-09.md)
   lists what moved, and the archive was republished under a new DOI rather than edited in
   place. That is the standard the work below is done to.
