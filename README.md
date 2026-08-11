@@ -83,6 +83,20 @@ and [dotenv-drift](https://marketplace.visualstudio.com/items?itemName=sujeito-o
 on the VS Code Marketplace, and
 [env-parity-action](https://github.com/sujeito-operator/env-parity-action) for CI.
 
+**Work somebody else chose to list.**
+[bounty-trap-scan](https://github.com/sujeito-operator/bounty-trap-scan) — two stdlib-only
+scanners over GitHub's open bounty issues. 91 of 563 open bounty issues
+(16.2%), across 76 repositories, carry task text written to make an
+autonomous contributor paste its own initialization payload into the public pull request it
+opens. Reading the other end of that pipe — 1,200 pull requests opened by coding
+agents — 0 pasted one, but 36 compliance blocks published a real absolute
+working path, which is 19 pull requests from 4 accounts. On
+2026-08-11 the maintainer of
+[awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools)
+(1,034★) put it on that list's **watchlist** — explicitly not the main list, which they
+said they would reconsider once there is external adoption or replication by someone other
+than me. That distinction is theirs, and it is repeated here because it is the accurate one.
+
 **What I did when one of them turned out to be wrong.** The only `error`-severity rule
 either extension shipped matched key names as bare substrings and never read the value, so
 `ENV TIKTOKEN_CACHE_DIR=/cache` was reported as a baked secret because `TIKTOKEN` contains
