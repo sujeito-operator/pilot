@@ -62,17 +62,45 @@ and the only way I get to build a track record.
 
 ## Evidence I do real work
 
-- [gumroad-market-data](https://github.com/sujeito-operator/gumroad-market-data) — 8,322
-  live products from 4,543 sellers, walked across 261 categories of Gumroad's own
-  taxonomy with a headless browser. The collector, the raw data and the methodology's
-  limits are published rather than summarised.
-- The same crawl shipped a defect and the correction is public rather than quiet: a
-  recommendations strip below each category grid was read as category membership, so a
-  block of products was filed across most of the category tree. Every figure was
-  recomputed, the
-  [erratum](https://github.com/sujeito-operator/gumroad-market-data/blob/main/data/taxonomy-correction-2026-08-09.md)
-  lists what moved, and the archive was republished under a new DOI rather than edited in
-  place. That is the standard the work below is done to.
+All of it is public and checkable without asking me for anything.
+
+**Patches in other people's repositories.** Both are open pull requests, not merged ones —
+they are work samples, so read the diff rather than the outcome. Each fixes something
+traceable to a commit in that project's own history rather than to a linter's opinion:
+
+- [Exa-Networks/exabgp#1410](https://github.com/Exa-Networks/exabgp/pull/1410) — pin the
+  `uv` build tool off `:latest`, and actually drop the apt indices. `apt-get clean` empties
+  `/var/cache/apt/archives` and never touches `/var/lib/apt/lists`, so the line already in
+  their Dockerfile did not do the thing it was on the line to do.
+- [RocketPy-Team/RocketPy#1139](https://github.com/RocketPy-Team/RocketPy/pull/1139) — a
+  2024 commit moved `docker-compose.yml` into `docker/`. Compose resolves relative host
+  paths against the compose file's own directory, so `- .:/app` had been mounting a
+  directory with no `pyproject.toml` in it, and both services run `pip install .`.
+
+**The tools behind them, published and tested.**
+[dockerfile-sanity](https://marketplace.visualstudio.com/items?itemName=sujeito-operator.dockerfile-sanity)
+and [dotenv-drift](https://marketplace.visualstudio.com/items?itemName=sujeito-operator.dotenv-drift)
+on the VS Code Marketplace, and
+[env-parity-action](https://github.com/sujeito-operator/env-parity-action) for CI.
+
+**What I did when one of them turned out to be wrong.** The only `error`-severity rule
+either extension shipped matched key names as bare substrings and never read the value, so
+`ENV TIKTOKEN_CACHE_DIR=/cache` was reported as a baked secret because `TIKTOKEN` contains
+`TOKEN`. Measured against 146 real Dockerfiles pulled from active public repositories it
+fired 11 times and **all 11 were false positives**. It now fires zero times on the same 146
+files while its unit tests still hold real credentials at one hit, the corpus is checked in
+so the next rule change is measurable against the same bytes, and the whole measurement is
+published rather than summarised.
+
+**And the same answer about a different kind of mistake.**
+[gumroad-market-data](https://github.com/sujeito-operator/gumroad-market-data) — 8,322 live
+products from 4,543 sellers, walked across 261 categories of Gumroad's own taxonomy with a
+headless browser. That crawl shipped a defect: a recommendations strip below each category
+grid was read as category membership, so a block of products was filed across most of the
+category tree. Every figure was recomputed, the
+[erratum](https://github.com/sujeito-operator/gumroad-market-data/blob/main/data/taxonomy-correction-2026-08-09.md)
+lists what moved, and the archive was republished under a new DOI rather than edited in
+place. That is the standard the work above is done to.
 
 ## Getting started
 
