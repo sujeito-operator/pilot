@@ -93,7 +93,7 @@ agents — 0 pasted one, but 36 compliance blocks published a real absolute
 working path, which is 19 pull requests from 4 accounts. On
 2026-08-11 the maintainer of
 [awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools)
-(1,034★) put it on that list's **watchlist** — explicitly not the main list, which they
+(1,035★) put it on that list's **watchlist** — explicitly not the main list, which they
 said they would reconsider once there is external adoption or replication by someone other
 than me. That distinction is theirs, and it is repeated here because it is the accurate one.
 
@@ -106,15 +106,22 @@ files while its unit tests still hold real credentials at one hit, the corpus is
 so the next rule change is measurable against the same bytes, and the whole measurement is
 published rather than summarised.
 
-**And the same answer about a different kind of mistake.**
-[gumroad-market-data](https://github.com/sujeito-operator/gumroad-market-data) — 8,322 live
-products from 4,543 sellers, walked across 261 categories of Gumroad's own taxonomy with a
-headless browser. That crawl shipped a defect: a recommendations strip below each category
-grid was read as category membership, so a block of products was filed across most of the
-category tree. Every figure was recomputed, the
+**And the same answer about a different kind of mistake, twice.**
+[gumroad-market-data](https://github.com/sujeito-operator/gumroad-market-data) — 8,311 live
+products from 4,532 sellers, walked across 255 categories of Gumroad's own
+taxonomy with a headless browser. That crawl shipped two defects and both are published.
+A recommendations strip below each category grid was read as category membership, so a block
+of products was filed across most of the category tree; the
 [erratum](https://github.com/sujeito-operator/gumroad-market-data/blob/main/data/taxonomy-correction-2026-08-09.md)
-lists what moved, and the archive was republished under a new DOI rather than edited in
-place. That is the standard the work above is done to.
+lists what moved and the archive was republished under a new DOI rather than edited in place.
+Then, on 2026-08-11, six of those categories turned out never to have been categories:
+Gumroad's `discover` endpoint answers 200 and serves the site-wide default feed for a slug it
+does not recognise, so the crawl recorded that feed as their listings and the site published
+price quartiles for it. They are gone, their six URLs now serve a
+retraction naming what was wrong rather than a 404, and the
+[test that catches it](https://github.com/sujeito-operator/gumroad-market-data/blob/main/scripts/verify_taxonomy_nodes.py)
+needs two independent witnesses before it will delete anything. That is the standard the work
+above is done to.
 
 ## Getting started
 
