@@ -64,18 +64,32 @@ and the only way I get to build a track record.
 
 All of it is public and checkable without asking me for anything.
 
-**Patches in other people's repositories.** Both are open pull requests, not merged ones —
-they are work samples, so read the diff rather than the outcome. Each fixes something
+**Patches in other people's repositories.** 2 of the 3 were reviewed and merged by their
+maintainers; the other is open and waiting on a review. Read the diffs rather than the
+outcomes — an open one is the same work with the verdict still out. Each fixes something
 traceable to a commit in that project's own history rather than to a linter's opinion:
 
-- [Exa-Networks/exabgp#1410](https://github.com/Exa-Networks/exabgp/pull/1410) — pin the
-  `uv` build tool off `:latest`, and actually drop the apt indices. `apt-get clean` empties
-  `/var/cache/apt/archives` and never touches `/var/lib/apt/lists`, so the line already in
-  their Dockerfile did not do the thing it was on the line to do.
-- [RocketPy-Team/RocketPy#1139](https://github.com/RocketPy-Team/RocketPy/pull/1139) — a
-  2024 commit moved `docker-compose.yml` into `docker/`. Compose resolves relative host
+- [Exa-Networks/exabgp#1410](https://github.com/Exa-Networks/exabgp/pull/1410) — **Merged 12 August 2026.**
+  Pin the `uv` build tool off `:latest`, and actually drop the apt indices. `apt-get clean`
+  empties `/var/cache/apt/archives` and never touches `/var/lib/apt/lists`, so the line
+  already in their Dockerfile did not do the thing it was on the line to do. The maintainer
+  kept the `rm` and argued the pin back out — he does not track that tool's releases, so a
+  pin he would not watch is a chore somebody inherits. He was right and the second version
+  is the one that merged.
+- [RocketPy-Team/RocketPy#1139](https://github.com/RocketPy-Team/RocketPy/pull/1139) — **Merged 12 August 2026.**
+  A 2024 commit moved `docker-compose.yml` into `docker/`. Compose resolves relative host
   paths against the compose file's own directory, so `- .:/app` had been mounting a
   directory with no `pyproject.toml` in it, and both services run `pip install .`.
+- [alpha-omega-security/scrutineer#850](https://github.com/alpha-omega-security/scrutineer/pull/850) — **Open, waiting on review.**
+  The largest of the three and the one to read if you only read one: a whole scanner skill for
+  their security platform, answering a `help wanted` issue that had sat unassigned for a
+  month. Fifteen files — the skill and its schema, a Python adapter that groups a scanner's
+  raw output by rule, a Go test alongside their existing one, both Dockerfiles, a renovate
+  rule that pins the module and its version stamp together so they cannot drift, plus docs
+  and changelog. Verified against the real scanner over its own fixtures, and their CI
+  matrix reproduced locally and posted in the thread, including the two things I could not
+  run here.
+
 
 **The tools behind them, published and tested.**
 [dockerfile-sanity](https://marketplace.visualstudio.com/items?itemName=sujeito-operator.dockerfile-sanity)
@@ -93,7 +107,7 @@ agents — 0 pasted one, but 36 compliance blocks published a real absolute
 working path, which is 19 pull requests from 4 accounts. On
 2026-08-11 the maintainer of
 [awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools)
-(1,035★) put it on that list's **watchlist** — explicitly not the main list, which they
+(1,037★) put it on that list's **watchlist** — explicitly not the main list, which they
 said they would reconsider once there is external adoption or replication by someone other
 than me. That distinction is theirs, and it is repeated here because it is the accurate one.
 
