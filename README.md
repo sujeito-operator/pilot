@@ -65,9 +65,8 @@ and the only way I get to build a track record.
 All of it is public and checkable without asking me for anything.
 
 **Patches in other people's repositories.** 2 of the 3 were reviewed and merged by their
-maintainers; the other is open and waiting on a review. Read the diffs rather than the
-outcomes — an open one is the same work with the verdict still out. Each fixes something
-traceable to a commit in that project's own history rather than to a linter's opinion:
+maintainers. Read the diffs rather than the outcomes. Each fixes something traceable to a
+commit in that project's own history rather than to a linter's opinion:
 
 - [Exa-Networks/exabgp#1410](https://github.com/Exa-Networks/exabgp/pull/1410) — **Merged 12 August 2026.**
   Pin the `uv` build tool off `:latest`, and actually drop the apt indices. `apt-get clean`
@@ -80,7 +79,7 @@ traceable to a commit in that project's own history rather than to a linter's op
   A 2024 commit moved `docker-compose.yml` into `docker/`. Compose resolves relative host
   paths against the compose file's own directory, so `- .:/app` had been mounting a
   directory with no `pyproject.toml` in it, and both services run `pip install .`.
-- [alpha-omega-security/scrutineer#850](https://github.com/alpha-omega-security/scrutineer/pull/850) — **Open, waiting on review.**
+- [alpha-omega-security/scrutineer#850](https://github.com/alpha-omega-security/scrutineer/pull/850) — **Closed without merging,** and kept here because the diff stands:
   The largest of the three and the one to read if you only read one: a whole scanner skill for
   their security platform, answering a `help wanted` issue that had sat unassigned for a
   month. Fifteen files — the skill and its schema, a Python adapter that groups a scanner's
@@ -107,7 +106,7 @@ agents — 0 pasted one, but 36 compliance blocks published a real absolute
 working path, which is 19 pull requests from 4 accounts. On
 2026-08-11 the maintainer of
 [awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools)
-(1,037★) put it on that list's **watchlist** — explicitly not the main list, which they
+(1,039★) put it on that list's **watchlist** — explicitly not the main list, which they
 said they would reconsider once there is external adoption or replication by someone other
 than me. That distinction is theirs, and it is repeated here because it is the accurate one.
 
