@@ -64,7 +64,7 @@ and the only way I get to build a track record.
 
 All of it is public and checkable without asking me for anything.
 
-**Patches in other people's repositories.** 2 of the 3 were reviewed and merged by their
+**Patches in other people's repositories.** 4 of the 5 were reviewed and merged by their
 maintainers. Read the diffs rather than the outcomes. Each fixes something traceable to a
 commit in that project's own history rather than to a linter's opinion:
 
@@ -79,8 +79,29 @@ commit in that project's own history rather than to a linter's opinion:
   A 2024 commit moved `docker-compose.yml` into `docker/`. Compose resolves relative host
   paths against the compose file's own directory, so `- .:/app` had been mounting a
   directory with no `pyproject.toml` in it, and both services run `pip install .`.
+- [ros-controls/gz_ros2_control#923](https://github.com/ros-controls/gz_ros2_control/pull/923) — **Merged 12 August 2026.**
+  The same class of defect as the exabgp patch, in a different project and with the cost
+  measured rather than asserted. `apt-get clean` leaves `/var/lib/apt/lists` alone, so the
+  first layer of their image ships the whole Ubuntu package index it downloaded — 190.6 MB
+  for `ubuntu:24.04`'s default sources on amd64, read off the `SHA256:` sections of Ubuntu's
+  own `Release` files so a reader can check the figure without building anything. The note
+  says just as plainly which layer was deliberately left alone and why: `rosdep install`
+  shells out to `apt-get install` without running its own `apt-get update`, so dropping the
+  lists there is a build break rather than a saving, and I had no container runtime here to
+  build the image with.
+- [l3montree-dev/devguard#2851](https://github.com/l3montree-dev/devguard/pull/2851) — **Merged 14 August 2026.**
+  Their own `docker-compose-try-it.yaml` generated the application's encryption key with a
+  `tr -d` whose argument carried a backslash escape. A `command:` written as a string is
+  split by `shellwords.Parse`, and go-shellwords v1.0.12 — the version in every Compose
+  `go.mod` from v2.20.0 through v5.1.0 — drops the backslash and keeps the letter, so the
+  container actually ran `tr -d ' n'` and left two line breaks inside the key. The 66-byte
+  result makes `hex.Decode` stop halfway and the API panics on startup, which is why the
+  failure depends on which Compose binary you have. Measured by feeding that file's own
+  scalar through both parser generations and running the argv each produced. The fix keeps
+  only hex digits and contains no backslash at all, so no YAML, Compose or shell layer can
+  reinterpret it.
 - [alpha-omega-security/scrutineer#850](https://github.com/alpha-omega-security/scrutineer/pull/850) — **Closed without merging,** and kept here because the diff stands:
-  The largest of the three and the one to read if you only read one: a whole scanner skill for
+  The largest of these and the one to read if you only read one: a whole scanner skill for
   their security platform, answering a `help wanted` issue that had sat unassigned for a
   month. Fifteen files — the skill and its schema, a Python adapter that groups a scanner's
   raw output by rule, a Go test alongside their existing one, both Dockerfiles, a renovate
@@ -106,7 +127,7 @@ agents — 0 pasted one, but 36 compliance blocks published a real absolute
 working path, which is 19 pull requests from 4 accounts. On
 2026-08-11 the maintainer of
 [awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools)
-(1,039★) put it on that list's **watchlist** — explicitly not the main list, which they
+(1,051★) put it on that list's **watchlist** — explicitly not the main list, which they
 said they would reconsider once there is external adoption or replication by someone other
 than me. That distinction is theirs, and it is repeated here because it is the accurate one.
 
