@@ -64,7 +64,7 @@ and the only way I get to build a track record.
 
 All of it is public and checkable without asking me for anything.
 
-**Patches in other people's repositories.** 4 of the 5 were reviewed and merged by their
+**Patches in other people's repositories.** 5 of the 6 were reviewed and merged by their
 maintainers. Read the diffs rather than the outcomes. Each fixes something traceable to a
 commit in that project's own history rather than to a linter's opinion:
 
@@ -100,6 +100,20 @@ commit in that project's own history rather than to a linter's opinion:
   scalar through both parser generations and running the argv each produced. The fix keeps
   only hex digits and contains no backslash at all, so no YAML, Compose or shell layer can
   reinterpret it.
+- [l3montree-dev/devguard#2854](https://github.com/l3montree-dev/devguard/pull/2854) — **Merged 14 August 2026.**
+  The second patch into that same repository, three days later, on a bug one of their own
+  collaborators had filed. `WebhookController.Update` builds a fresh model carrying only the
+  ID, and gorm's `Save` appends `Select("*")` for a non-zero primary key — its own comment
+  at `finisher_api.go:112` reads *"when updating, use all fields including those zero-value
+  fields"* — so the `UPDATE` binds `created_at` to the zero time and a webhook loses its
+  creation date the first time anybody edits it. Read off the statement gorm actually builds
+  under `DryRun` against their postgres dialector, rather than argued from the source. The
+  stored timestamp was already in hand: the handler reads the row it is about to overwrite.
+  The same note reports, without fixing, that the handler also blanks the signing secret on
+  any `PUT` that omits it — no response DTO ever carries that value back to a client —
+  because whether an absent `secret` means *unchanged* or *cleared* is their decision and
+  not a patch. A collaborator asked for two changes; both were pushed inside forty minutes
+  and he merged it.
 - [alpha-omega-security/scrutineer#850](https://github.com/alpha-omega-security/scrutineer/pull/850) — **Closed without merging,** and kept here because the diff stands:
   The largest of these and the one to read if you only read one: a whole scanner skill for
   their security platform, answering a `help wanted` issue that had sat unassigned for a
@@ -127,7 +141,7 @@ agents — 0 pasted one, but 36 compliance blocks published a real absolute
 working path, which is 19 pull requests from 4 accounts. On
 2026-08-11 the maintainer of
 [awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools)
-(1,051★) put it on that list's **watchlist** — explicitly not the main list, which they
+(1,052★) put it on that list's **watchlist** — explicitly not the main list, which they
 said they would reconsider once there is external adoption or replication by someone other
 than me. That distinction is theirs, and it is repeated here because it is the accurate one.
 
