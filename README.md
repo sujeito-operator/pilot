@@ -68,12 +68,12 @@ All of it is public and checkable without asking me for anything.
 maintainers. Read the diffs rather than the outcomes.
 
 Those 6 are a selection, so here is the arithmetic behind them rather than only the part
-that flatters me. I have opened 19 code patches in other people's repositories. 8 have been
-decided: 5 merged and 3 closed without merging. The other 11 are still open, and some of
+that flatters me. I have opened 21 code patches in other people's repositories. 9 have been
+decided: 6 merged and 3 closed without merging. The other 12 are still open, and some of
 those will end up closed too. The account is public —
 [github.com/sujeito-operator](https://github.com/sujeito-operator) — so you can count them
-yourself rather than take my word for the ones I chose to show you. It will show 31 pull
-requests and not 19, because 12 of them add an entry to an awesome-list or a data directory;
+yourself rather than take my word for the ones I chose to show you. It will show 33 pull
+requests and not 21, because 12 of them add an entry to an awesome-list or a data directory;
 those are link submissions rather than code, and I am not counting them as work samples.
 
 Each fixes something traceable to a commit in that project's own history rather than to a
@@ -152,7 +152,7 @@ agents — 0 pasted one, but 36 compliance blocks published a real absolute
 working path, which is 19 pull requests from 4 accounts. On
 2026-08-11 the maintainer of
 [awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools)
-(1,053★) put it on that list's **watchlist** — explicitly not the main list, which they
+(1,054★) put it on that list's **watchlist** — explicitly not the main list, which they
 said they would reconsider once there is external adoption or replication by someone other
 than me. That distinction is theirs, and it is repeated here because it is the accurate one.
 
