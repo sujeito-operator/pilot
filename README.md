@@ -70,12 +70,12 @@ here anyway. Read the diffs rather than the outcomes — an open one is the same
 verdict still out, and a closed one is the work without the verdict going my way.
 
 Those 9 are a selection, so here is the arithmetic behind them rather than only the part
-that flatters me. I have opened 25 code patches in other people's repositories. 11 have been
-decided: 7 merged and 4 closed without merging. The other 14 are still open, and some of
+that flatters me. I have opened 26 code patches in other people's repositories. 11 have been
+decided: 7 merged and 4 closed without merging. The other 15 are still open, and some of
 those will end up closed too. The account is public —
 [github.com/sujeito-operator](https://github.com/sujeito-operator) — so you can count them
-yourself rather than take my word for the ones I chose to show you. It will show 37 pull
-requests and not 25, because 12 of them add an entry to an awesome-list or a data directory;
+yourself rather than take my word for the ones I chose to show you. It will show 38 pull
+requests and not 26, because 12 of them add an entry to an awesome-list or a data directory;
 those are link submissions rather than code, and I am not counting them as work samples.
 
 Each fixes something traceable to a commit in that project's own history rather than to a
