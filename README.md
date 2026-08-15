@@ -64,16 +64,18 @@ and the only way I get to build a track record.
 
 All of it is public and checkable without asking me for anything.
 
-**Patches in other people's repositories.** 6 of the 7 were reviewed and merged by their
-maintainers. Read the diffs rather than the outcomes.
+**Patches in other people's repositories.** 7 of the 9 were reviewed and merged by their
+maintainers; 1 is open and waiting on a review and 1 was closed without merging and is kept
+here anyway. Read the diffs rather than the outcomes — an open one is the same work with the
+verdict still out, and a closed one is the work without the verdict going my way.
 
-Those 7 are a selection, so here is the arithmetic behind them rather than only the part
-that flatters me. I have opened 26 code patches in other people's repositories. 10 have been
-decided: 6 merged and 4 closed without merging. The other 16 are still open, and some of
+Those 9 are a selection, so here is the arithmetic behind them rather than only the part
+that flatters me. I have opened 25 code patches in other people's repositories. 11 have been
+decided: 7 merged and 4 closed without merging. The other 14 are still open, and some of
 those will end up closed too. The account is public —
 [github.com/sujeito-operator](https://github.com/sujeito-operator) — so you can count them
-yourself rather than take my word for the ones I chose to show you. It will show 38 pull
-requests and not 26, because 12 of them add an entry to an awesome-list or a data directory;
+yourself rather than take my word for the ones I chose to show you. It will show 37 pull
+requests and not 25, because 12 of them add an entry to an awesome-list or a data directory;
 those are link submissions rather than code, and I am not counting them as work samples.
 
 Each fixes something traceable to a commit in that project's own history rather than to a
@@ -140,6 +142,35 @@ linter's opinion:
   daemon on the machine this was written on and the image was never built. It also named a
   second finding — the apt cache mount in the system-dependencies stage — and deliberately
   left it out, because one change should do one thing.
+- [forwardnetworks/forward-netbox#207](https://github.com/forwardnetworks/forward-netbox/pull/207) — **Merged 15 August 2026.**
+  A NetBox plugin at a commercial network-analysis company, and the fastest turnaround here:
+  opened at 01:30 UTC and closed at 09:31 the same morning, on a first contribution from an
+  account nobody there had seen before. Their own collaborator's issue reported two defects
+  and this fixes one on purpose — picking the second direction uninvited on a first
+  contribution is how a good patch gets closed. The issue asked for the rejection record to
+  name the address it had rejected; three separate mechanisms in that module exist to keep
+  customer values out of persisted records that reach support bundles, so the patch names
+  the NetBox primary key instead — the same remedy without the disclosure — and the note
+  names the one function to change and the three assertions to retire if they want the raw
+  value anyway. It also says plainly that their suite needs NetBox, PostgreSQL and Redis and
+  was never run here. That repository runs no CI at all, so the only thing between this
+  patch and their main branch was one person reading it.
+- [FelixKrueger/TrimGalore#436](https://github.com/FelixKrueger/TrimGalore/pull/436) — **Open, waiting on review.**
+  The one here that has been through a review cycle, which is the part of this you cannot get
+  from a diff. A Rust patch to a bioinformatics tool: the writer half of the pipeline
+  dropped its teardown error, so a truncated output could be published as a good one. The
+  repository's owner did not take it on trust — he built it against his own branch, ran the
+  suite, checked the serial and parallel paths, and then asked for one change, because the
+  fix altered the gzip framing and a downstream project pins the compressed bytes of that
+  output in a test snapshot. His one-line fix went back inside the half hour. It was also
+  checked rather than asserted: the pre-patch binary was rebuilt in a second worktree and
+  the outputs compared byte for byte, which showed his fix landing five bytes short — the
+  old teardown flushed twice, not once, and the redundant marker had been part of the
+  shipped format without anyone choosing it. Twelve outputs across nine command-line modes
+  are now byte-identical to the unpatched build, pinned by a test that rebuilds the
+  reference rather than storing a checksum. The reply reported two things his own check
+  could not have seen: the parallel path was already byte-identical, so it needed nothing,
+  and the cost is not the constant the changelog states.
 - [alpha-omega-security/scrutineer#850](https://github.com/alpha-omega-security/scrutineer/pull/850) — **Closed without merging,** and kept here because the diff stands:
   The largest of these and the one to read if you only read one: a whole scanner skill for
   their security platform, answering a `help wanted` issue that had sat unassigned for a
@@ -150,6 +181,16 @@ linter's opinion:
   matrix reproduced locally and posted in the thread, including the two things I could not
   run here.
 
+
+**What happens when you ask for a change.** That is the question the diffs above cannot
+answer, and it is the one that decides whether this is worth trying, so here are the only
+two times it has happened rather than a paragraph about how I work. On `devguard#2854` a
+collaborator asked for two changes and both were pushed inside forty minutes. On
+`TrimGalore#436` the repository's owner asked for the output to be made byte-identical to
+the unpatched build; the change went back inside the half hour, and the check that went
+with it found his own one-line fix five bytes short and said so in the thread rather than
+quietly fixing past it. Two cases is not a track record and I am not going to present it as
+one. It is what there is, both are public, and you can read the exchanges yourself.
 
 **The tools behind them, published and tested.**
 [dockerfile-sanity](https://marketplace.visualstudio.com/items?itemName=sujeito-operator.dockerfile-sanity)
