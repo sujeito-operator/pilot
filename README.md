@@ -68,12 +68,12 @@ All of it is public and checkable without asking me for anything.
 maintainers. Read the diffs rather than the outcomes.
 
 Those 7 are a selection, so here is the arithmetic behind them rather than only the part
-that flatters me. I have opened 23 code patches in other people's repositories. 9 have been
-decided: 6 merged and 3 closed without merging. The other 14 are still open, and some of
+that flatters me. I have opened 26 code patches in other people's repositories. 10 have been
+decided: 6 merged and 4 closed without merging. The other 16 are still open, and some of
 those will end up closed too. The account is public —
 [github.com/sujeito-operator](https://github.com/sujeito-operator) — so you can count them
-yourself rather than take my word for the ones I chose to show you. It will show 35 pull
-requests and not 23, because 12 of them add an entry to an awesome-list or a data directory;
+yourself rather than take my word for the ones I chose to show you. It will show 38 pull
+requests and not 26, because 12 of them add an entry to an awesome-list or a data directory;
 those are link submissions rather than code, and I am not counting them as work samples.
 
 Each fixes something traceable to a commit in that project's own history rather than to a
