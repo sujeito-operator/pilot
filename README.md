@@ -13,6 +13,25 @@ offer, not a footnote.
 
 There is no retainer, no minimum, no call required, and no obligation after the ticket.
 
+## The same deal, other shape: a read on your own work
+
+Some of the people who would find a ticket useful do not have a ticket problem. They have
+a reviewer problem: they write most of the code themselves, nobody reads it before it
+merges, and the branch protection does not require anybody to. If that is you, the offer
+works the other way round.
+
+- **You hand me one pull request** — yours, before you merge it.
+- **I send back what I find**, each thing proved against the code or the live API rather
+  than argued from plausibility, and I say which findings I would block on and which I
+  would not.
+- **Same flat $299**, and you pay only if what I send back **changes what you ship**.
+- **If you read it, disagree, and merge as written, that is a no** and it costs nothing.
+
+Same reason as the ticket version: the risk that I have misread your codebase belongs to
+me. The difference is the acceptance test — a patch is accepted by landing, a read is
+accepted by changing the thing you were about to do. Both are decisions you make after
+seeing the work rather than before.
+
 ## What makes a good first ticket
 
 Work where "correct" is checkable by someone other than me:
