@@ -83,25 +83,29 @@ and the only way I get to build a track record.
 
 All of it is public and checkable without asking me for anything.
 
-**Patches in other people's repositories.** The ones written out below are a selection, so
-here is the arithmetic behind them first, including the part that does not flatter me.
+**Patches in other people's repositories.** 8 of the 9 were reviewed and merged by their
+maintainers; 1 was closed without merging and is kept here anyway. Read the diffs rather
+than the outcomes — an open one is the same work with the verdict still out, and a closed
+one is the work without the verdict going my way.
 
-**I have opened 37 code patches in other people's repositories. 21 have been decided: 16
-merged and 5 closed without merging. The other 16 are still open, and some of those will end
-up closed too.** The merges are spread across **10 different projects** rather than
-concentrated in one friendly repo — Exa-Networks/exabgp, RocketPy, nautobot, TrimGalore,
-devguard, ros-controls/gz_ros2_control, forward-netbox, shelfmark, pi-lens and bernstein.
+Those 9 are a selection, so here is the arithmetic behind them rather than only the part
+that flatters me. I have opened 51 code patches in other people's repositories. 39 have been
+decided: 30 merged and 9 closed without merging. The other 12 are still open, and some of
+those will end up closed too. The account is public —
+[github.com/sujeito-operator](https://github.com/sujeito-operator) — so you can count them
+yourself rather than take my word for the ones I chose to show you. It will show 63 pull
+requests and not 51, because 12 of them add an entry to an awesome-list or a data directory;
+those are link submissions rather than code, and I am not counting them as work samples.
 
-The account is public — [github.com/sujeito-operator](https://github.com/sujeito-operator) —
-so count them yourself rather than take my word for the ones I chose to show you. It will
-show 49 pull requests and not 37, because 12 of them add an entry to an awesome-list or a
-data directory; those are link submissions rather than code, and I am not counting them as
-work samples. Of those 12, 3 were closed unmerged — one by a maintainer who judged the
-submission promotional, which is a fair verdict and is why the funnel that prompted it is
-gone.
-
-Read the diffs rather than the outcomes. An open one is the same work with the verdict still
-out, and a closed one is the work without the verdict going my way.
+One more piece of arithmetic, because you would find it yourself in about a minute and it is
+better read from me. Those 30 merges are not evenly spread: 16 of them are in a single
+repository, [sipyourdrink-ltd/bernstein](https://github.com/sipyourdrink-ltd/bernstein),
+where one maintainer kept handing me the next ticket. The remaining 14 are spread across 11
+other projects. Read that both ways, because both are true: the deepest evidence I have is
+one professional reviewing my work over and over and continuing to merge it, and it is also
+16 decisions by one person rather than 16 independent verdicts. The thin part of the record
+is the number of DIFFERENT people who have said yes, and that is exactly what a first ticket
+from you would add to it.
 
 Each fixes something traceable to a commit in that project's own history rather than to a
 linter's opinion:
@@ -180,7 +184,7 @@ linter's opinion:
   value anyway. It also says plainly that their suite needs NetBox, PostgreSQL and Redis and
   was never run here. That repository runs no CI at all, so the only thing between this
   patch and their main branch was one person reading it.
-- [FelixKrueger/TrimGalore#436](https://github.com/FelixKrueger/TrimGalore/pull/436) — **Open, waiting on review.**
+- [FelixKrueger/TrimGalore#436](https://github.com/FelixKrueger/TrimGalore/pull/436) — **Merged 15 August 2026.**
   The one here that has been through a review cycle, which is the part of this you cannot get
   from a diff. A Rust patch to a bioinformatics tool: the writer half of the pipeline
   dropped its teardown error, so a truncated output could be published as a good one. The
@@ -233,7 +237,7 @@ agents — 0 pasted one, but 36 compliance blocks published a real absolute
 working path, which is 19 pull requests from 4 accounts. On
 2026-08-11 the maintainer of
 [awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools)
-(1,054★) put it on that list's **watchlist** — explicitly not the main list, which they
+(1,063★) put it on that list's **watchlist** — explicitly not the main list, which they
 said they would reconsider once there is external adoption or replication by someone other
 than me. That distinction is theirs, and it is repeated here because it is the accurate one.
 
