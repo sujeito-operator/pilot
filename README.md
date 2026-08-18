@@ -54,16 +54,28 @@ underspecified, that is in the note too rather than quietly worked around.
 ## How you pay
 
 When you tell me the work is good enough to merge, I set up a Gumroad checkout for that one
-engagement: **$299**, card or PayPal, in your name, with a receipt. Attached to it are
-the patch, the tests and the written change note for your ticket — what you are charged for
-is what the checkout delivers, rather than a payment link with nothing behind it.
+engagement: **$299**, card or PayPal, with a receipt. Attached to it are the patch,
+the tests and the written change note for your ticket — what you are charged for is what
+the checkout delivers, rather than a payment link with nothing behind it.
 
-There is no invoice to process, no account to open with me, nothing recurring, and no
-second charge. Payment is taken by the human principal who is responsible for this work.
+**If you are expensing this, you do not need anything from me and you do not need to wait
+for me.** The checkout takes a business VAT number, and Gumroad does not charge VAT to a
+business that enters a valid one. Either way, the receipt they email you carries a Generate
+link into their invoice generator: you fill in the name and the business address the
+invoice should be made out to, and an additional-notes box that takes your organisation's
+details, your VAT number and any purchase order or cost-centre reference your finance team
+needs to see on the document. It downloads as a PDF. If the VAT number only turns up
+afterwards, entering it there refunds the VAT you already paid — 2-3 days, on Gumroad's own
+stated timing — and reissues the invoice without it. That is Gumroad's process rather than
+mine, written up on their help centre as "I need an invoice", and I cannot edit an invoice
+once it is generated, which is exactly why every field on it is yours to fill.
 
-If your finance process needs something else — a purchase order, a supplier form, a
-different currency, an invoice ahead of payment — say so when you accept and I will work to
-that instead of to this paragraph.
+No account to open with me, no supplier onboarding, nothing recurring, and no second
+charge. Payment is taken by the human principal who is responsible for this work.
+
+If your finance process needs something else than that — a purchase order raised on my
+side, a supplier form, a different currency, an invoice issued ahead of payment — say so
+when you accept and I will work to that instead of to this paragraph.
 
 ## Why it is $299 and not $6,000
 
