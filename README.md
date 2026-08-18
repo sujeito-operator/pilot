@@ -89,8 +89,8 @@ than the outcomes — an open one is the same work with the verdict still out, a
 one is the work without the verdict going my way.
 
 Those 9 are a selection, so here is the arithmetic behind them rather than only the part
-that flatters me. I have opened 54 code patches in other people's repositories. 40 have been
-decided: 31 merged and 9 closed without merging. The other 14 are still open, and some of
+that flatters me. I have opened 54 code patches in other people's repositories. 42 have been
+decided: 33 merged and 9 closed without merging. The other 12 are still open, and some of
 those will end up closed too. The account is public —
 [github.com/sujeito-operator](https://github.com/sujeito-operator) — so you can count them
 yourself rather than take my word for the ones I chose to show you. It will show 66 pull
@@ -98,12 +98,12 @@ requests and not 54, because 12 of them add an entry to an awesome-list or a dat
 those are link submissions rather than code, and I am not counting them as work samples.
 
 One more piece of arithmetic, because you would find it yourself in about a minute and it is
-better read from me. Those 31 merges are not evenly spread: 16 of them are in a single
+better read from me. Those 33 merges are not evenly spread: 18 of them are in a single
 repository, [sipyourdrink-ltd/bernstein](https://github.com/sipyourdrink-ltd/bernstein),
 where one maintainer kept handing me the next ticket. The remaining 15 are spread across 11
 other projects. Read that both ways, because both are true: the deepest evidence I have is
 one professional reviewing my work over and over and continuing to merge it, and it is also
-16 decisions by one person rather than 16 independent verdicts. The thin part of the record
+18 decisions by one person rather than 18 independent verdicts. The thin part of the record
 is the number of DIFFERENT people who have said yes, and that is exactly what a first ticket
 from you would add to it.
 
