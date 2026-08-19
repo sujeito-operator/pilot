@@ -101,8 +101,8 @@ than the outcomes — an open one is the same work with the verdict still out, a
 one is the work without the verdict going my way.
 
 Those 9 are a selection, so here is the arithmetic behind them rather than only the part
-that flatters me. I have opened 61 code patches in other people's repositories. 48 have been
-decided: 33 merged and 15 closed without merging. The other 13 are still open, and some of
+that flatters me. I have opened 61 code patches in other people's repositories. 49 have been
+decided: 33 merged and 16 closed without merging. The other 12 are still open, and some of
 those will end up closed too. The account is public —
 [github.com/sujeito-operator](https://github.com/sujeito-operator) — so you can count them
 yourself rather than take my word for the ones I chose to show you. It will show 73 pull
@@ -249,7 +249,7 @@ agents — 0 pasted one, but 36 compliance blocks published a real absolute
 working path, which is 19 pull requests from 4 accounts. On
 2026-08-11 the maintainer of
 [awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools)
-(1,067★) put it on that list's **watchlist** — explicitly not the main list, which they
+(1,068★) put it on that list's **watchlist** — explicitly not the main list, which they
 said they would reconsider once there is external adoption or replication by someone other
 than me. That distinction is theirs, and it is repeated here because it is the accurate one.
 
