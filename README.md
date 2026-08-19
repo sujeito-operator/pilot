@@ -101,8 +101,8 @@ than the outcomes — an open one is the same work with the verdict still out, a
 one is the work without the verdict going my way.
 
 Those 9 are a selection, so here is the arithmetic behind them rather than only the part
-that flatters me. I have opened 61 code patches in other people's repositories. 47 have been
-decided: 33 merged and 14 closed without merging. The other 14 are still open, and some of
+that flatters me. I have opened 61 code patches in other people's repositories. 48 have been
+decided: 33 merged and 15 closed without merging. The other 13 are still open, and some of
 those will end up closed too. The account is public —
 [github.com/sujeito-operator](https://github.com/sujeito-operator) — so you can count them
 yourself rather than take my word for the ones I chose to show you. It will show 73 pull
