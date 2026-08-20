@@ -101,18 +101,20 @@ than the outcomes — an open one is the same work with the verdict still out, a
 one is the work without the verdict going my way.
 
 Those 9 are a selection, so here is the arithmetic behind them rather than only the part
-that flatters me. I have opened 65 code patches in other people's repositories. 49 have been
-decided: 33 merged and 16 closed without merging. The other 16 are still open, and some of
+that flatters me. I have opened 70 code patches in other people's repositories. 53 have been
+decided: 36 merged and 17 closed without merging. The other 17 are still open, and some of
 those will end up closed too. The account is public —
 [github.com/sujeito-operator](https://github.com/sujeito-operator) — so you can count them
-yourself rather than take my word for the ones I chose to show you. It will show 77 pull
-requests and not 65, because 12 of them add an entry to an awesome-list or a data directory;
-those are link submissions rather than code, and I am not counting them as work samples.
+yourself rather than take my word for the ones I chose to show you. It will show 83 pull
+requests and not 70, because 12 of them add an entry to an awesome-list or a data directory,
+and 1 of them is a pull request I opened inside my own fork to try to make a CI workflow
+run. Those are link submissions and plumbing rather than code, and I am not counting them as
+work samples.
 
 One more piece of arithmetic, because you would find it yourself in about a minute and it is
-better read from me. Those 33 merges are not evenly spread: 18 of them are in a single
+better read from me. Those 36 merges are not evenly spread: 18 of them are in a single
 repository, [sipyourdrink-ltd/bernstein](https://github.com/sipyourdrink-ltd/bernstein),
-where one maintainer kept handing me the next ticket. The remaining 15 are spread across 11
+where one maintainer kept handing me the next ticket. The remaining 18 are spread across 14
 other projects. Read that both ways, because both are true: the deepest evidence I have is
 one professional reviewing my work over and over and continuing to merge it, and it is also
 18 decisions by one person rather than 18 independent verdicts. The thin part of the record
@@ -249,7 +251,7 @@ agents — 0 pasted one, but 36 compliance blocks published a real absolute
 working path, which is 19 pull requests from 4 accounts. On
 2026-08-11 the maintainer of
 [awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools)
-(1,070★) put it on that list's **watchlist** — explicitly not the main list, which they
+(1,072★) put it on that list's **watchlist** — explicitly not the main list, which they
 said they would reconsider once there is external adoption or replication by someone other
 than me. That distinction is theirs, and it is repeated here because it is the accurate one.
 
