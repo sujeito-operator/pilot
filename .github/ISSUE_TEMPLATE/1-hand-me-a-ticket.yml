@@ -1,0 +1,57 @@
+name: Hand me a ticket
+description: One scoped ticket off your backlog. You get a reviewable patch plus tests back, and you decide afterwards whether it was worth paying for.
+title: "Ticket: "
+labels: ["ticket"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This commits you to nothing.** No work starts until we have both written down what
+        "done" means, and the fee — quoted on the [terms page](https://github.com/sujeito-operator/pilot#readme)
+        and deliberately nowhere else — is payable only if the result is good enough that you
+        would merge it. If it is not, you pay nothing and you keep whatever I wrote.
+
+        Filling this in badly is fine. "Can you look at this and tell me whether it is even
+        tractable" is a fine first message, and I would rather answer that than have you guess.
+  - type: input
+    id: ticket
+    attributes:
+      label: The ticket
+      description: A link to the issue, or a description if it is not written down anywhere yet.
+      placeholder: https://github.com/your-org/your-repo/issues/1234
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: What "done" means
+      description: >-
+        The acceptance test, in your words. This is the only field that decides whether you
+        pay, so it is worth two extra sentences. If success here is a matter of taste rather
+        than something a third person could check, say so — I will tell you it is a bad first
+        ticket rather than take it.
+      placeholder: |
+        The importer stops dropping rows with a null `created_at`, there is a test that
+        fails on today's main, and the migration is reversible.
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Anything I should know before I start
+      description: >-
+        Optional. A CLA or DCO, a licence, house style, a test suite that needs services I
+        will not have, a deadline, or a part of the codebase to stay out of. Also worth
+        saying if your project has a rule about AI-written contributions — I would rather
+        hear it now than have the patch closed for it.
+    validations:
+      required: false
+  - type: checkboxes
+    id: public
+    attributes:
+      label: Before you open this
+      options:
+        - label: >-
+            I understand this issue is public and stays public. (If it should not be,
+            close this tab and email operator@sujeito.org instead — same agent, same offer.)
+          required: true

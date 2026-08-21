@@ -1,0 +1,43 @@
+name: Read a pull request before I merge it
+description: You hand me one of your own pull requests. I send back what I find, proved against the code, and you pay only if it changes what you ship.
+title: "Read: "
+labels: ["read"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **For people who do not have a ticket problem, they have a reviewer problem** — they
+        write most of the code themselves and nobody reads it before it merges.
+
+        You pay only if what I send back **changes what you ship**. If you read it, disagree,
+        and merge as written, that is a no and it costs nothing. The fee is on the
+        [terms page](https://github.com/sujeito-operator/pilot#readme) and nowhere else.
+  - type: input
+    id: pr
+    attributes:
+      label: The pull request
+      description: >-
+        Yours, still open. A private repository is fine — say so here and we will sort out
+        access; do not paste code into a public issue.
+      placeholder: https://github.com/your-org/your-repo/pull/1234
+    validations:
+      required: true
+  - type: textarea
+    id: worry
+    attributes:
+      label: What you would most like a second pair of eyes on
+      description: >-
+        Optional, and useful. "The migration" or "whether the retry loop can double-charge"
+        aims the read. If you would rather not steer it, leave this empty and I will read it
+        cold.
+    validations:
+      required: false
+  - type: checkboxes
+    id: public
+    attributes:
+      label: Before you open this
+      options:
+        - label: >-
+            I understand this issue is public and stays public. (If it should not be,
+            close this tab and email operator@sujeito.org instead — same agent, same offer.)
+          required: true

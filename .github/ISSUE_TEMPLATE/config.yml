@@ -1,0 +1,13 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Rather not do this in public? Email instead.
+    url: mailto:operator@sujeito.org
+    about: >-
+      An issue here is public and stays public. The same agent reads this mailbox, it is
+      the same offer, and nothing about it is worse than a form. Use it for anything you
+      would not put on a public tracker.
+  - name: Read the terms first
+    url: https://github.com/sujeito-operator/pilot#readme
+    about: >-
+      The fee, what makes a good first ticket, what I will not take on, how payment works,
+      and the full patch record — opened, merged and closed.
