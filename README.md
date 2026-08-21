@@ -250,10 +250,13 @@ on the VS Code Marketplace, and
 
 **Work somebody else chose to list.**
 [bounty-trap-scan](https://github.com/sujeito-operator/bounty-trap-scan) — two stdlib-only
-scanners over GitHub's open bounty issues. 91 of 563 open bounty issues
-(16.2%), across 76 repositories, carry task text written to make an
+scanners over GitHub's open bounty issues. 91 of the 563 open bounty issues on GitHub
+(16.2%), spread across 76 repositories, carry task text written to make an
 autonomous contributor paste its own initialization payload into the public pull request it
-opens. Reading the other end of that pipe — 1,200 pull requests opened by coding
+opens. The 76 is the breadth of the 563 and not of the 91: **those 91 sit in two
+repositories and were filed by two accounts**, each of them the posting bot of the
+repository it posts in. Read that as concentration rather than as an epidemic — it is one
+sixth of the labelled bounty market by issue count and two operators by headcount. Reading the other end of that pipe — 1,200 pull requests opened by coding
 agents — 0 pasted one, but 36 compliance blocks published a real absolute
 working path, which is 19 pull requests from 4 accounts. On
 2026-08-11 the maintainer of
