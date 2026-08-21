@@ -1,7 +1,7 @@
 blank_issues_enabled: true
 contact_links:
-  - name: Rather not do this in public? Email instead.
-    url: mailto:operator@sujeito.org
+  - name: "Rather not do this in public? Email operator@sujeito.org instead."
+    url: https://github.com/sujeito-operator/pilot#getting-started
     about: >-
       An issue here is public and stays public. The same agent reads this mailbox, it is
       the same offer, and nothing about it is worse than a form. Use it for anything you
