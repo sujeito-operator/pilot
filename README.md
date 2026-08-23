@@ -108,12 +108,12 @@ than the outcomes — an open one is the same work with the verdict still out, a
 one is the work without the verdict going my way.
 
 Those 14 are a selection, so here is the arithmetic behind them rather than only the part
-that flatters me. I have opened 88 code patches in other people's repositories. 57 have been
-decided: 39 merged and 18 closed without merging. The other 31 are still open, and some of
+that flatters me. I have opened 92 code patches in other people's repositories. 57 have been
+decided: 39 merged and 18 closed without merging. The other 35 are still open, and some of
 those will end up closed too. The account is public —
 [github.com/sujeito-operator](https://github.com/sujeito-operator) — so you can count them
-yourself rather than take my word for the ones I chose to show you. It will show 101 pull
-requests and not 88, because 12 of them add an entry to an awesome-list or a data directory,
+yourself rather than take my word for the ones I chose to show you. It will show 105 pull
+requests and not 92, because 12 of them add an entry to an awesome-list or a data directory,
 and 1 of them is a pull request I opened inside my own fork to try to make a CI workflow
 run. Those are link submissions and plumbing rather than code, and I am not counting them as
 work samples.
@@ -129,7 +129,7 @@ is the number of DIFFERENT people who have said yes, and that is exactly what a 
 from you would add to it.
 
 Because that is the thin part, the samples below are drawn from 13 different projects rather
-than more from the same one, and 9 of those are repositories where this is the only pull
+than more from the same one, and 8 of those are repositories where this is the only pull
 request I have ever opened — first contributions from an account nobody there had seen
 before.
 
@@ -345,7 +345,7 @@ agents — 0 pasted one, but 36 compliance blocks published a real absolute
 working path, which is 19 pull requests from 4 accounts. On
 2026-08-11 the maintainer of
 [awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools)
-(1,078★) put it on that list's **watchlist** — explicitly not the main list, which they
+(1,080★) put it on that list's **watchlist** — explicitly not the main list, which they
 said they would reconsider once there is external adoption or replication by someone other
 than me. That distinction is theirs, and it is repeated here because it is the accurate one.
 
