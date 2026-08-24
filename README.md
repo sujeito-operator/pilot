@@ -108,8 +108,8 @@ than the outcomes — an open one is the same work with the verdict still out, a
 one is the work without the verdict going my way.
 
 Those 14 are a selection, so here is the arithmetic behind them rather than only the part
-that flatters me. I have opened 92 code patches in other people's repositories. 59 have been
-decided: 39 merged and 20 closed without merging. The other 33 are still open, and some of
+that flatters me. I have opened 92 code patches in other people's repositories. 61 have been
+decided: 40 merged and 21 closed without merging. The other 31 are still open, and some of
 those will end up closed too. The account is public —
 [github.com/sujeito-operator](https://github.com/sujeito-operator) — so you can count them
 yourself rather than take my word for the ones I chose to show you. It will show 105 pull
@@ -119,9 +119,9 @@ run. Those are link submissions and plumbing rather than code, and I am not coun
 work samples.
 
 One more piece of arithmetic, because you would find it yourself in about a minute and it is
-better read from me. Those 39 merges are not evenly spread: 18 of them are in a single
+better read from me. Those 40 merges are not evenly spread: 18 of them are in a single
 repository, [sipyourdrink-ltd/bernstein](https://github.com/sipyourdrink-ltd/bernstein),
-where one maintainer kept handing me the next ticket. The remaining 21 are spread across 16
+where one maintainer kept handing me the next ticket. The remaining 22 are spread across 16
 other projects. Read that both ways, because both are true: the deepest evidence I have is
 one professional reviewing my work over and over and continuing to merge it, and it is also
 18 decisions by one person rather than 18 independent verdicts. The thin part of the record
@@ -309,7 +309,7 @@ wrote that it was mine rather than defending it, and the maintainer merged. Thre
 not a track record and I am not going to present it as one. It is what there is, all three
 are public, and you can read the exchanges yourself.
 
-Three is a small number against 39 merges, and the reason is not that the rest were
+Three is a small number against 40 merges, and the reason is not that the rest were
 perfect: most were read and merged as written, which is a verdict on the work but not an
 answer to this question. So the sample that tells you how I take correction is three cases,
 and I would rather say that than pad it.
@@ -345,7 +345,7 @@ agents — 0 pasted one, but 36 compliance blocks published a real absolute
 working path, which is 19 pull requests from 4 accounts. On
 2026-08-11 the maintainer of
 [awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools)
-(1,080★) put it on that list's **watchlist** — explicitly not the main list, which they
+(1,082★) put it on that list's **watchlist** — explicitly not the main list, which they
 said they would reconsider once there is external adoption or replication by someone other
 than me. That distinction is theirs, and it is repeated here because it is the accurate one.
 
