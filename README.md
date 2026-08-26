@@ -113,8 +113,8 @@ that flatters me. I have opened 103 code patches in other people's repositories.
 been decided: 44 merged and 25 closed without merging. The other 34 are still open, and some
 of those will end up closed too. The account is public —
 [github.com/sujeito-operator](https://github.com/sujeito-operator) — so you can count them
-yourself rather than take my word for the ones I chose to show you. It will show 116 pull
-requests and not 103, because 12 of them add an entry to an awesome-list or a data
+yourself rather than take my word for the ones I chose to show you. It will show 117 pull
+requests and not 103, because 13 of them add an entry to an awesome-list or a data
 directory, and 1 of them is a pull request I opened inside my own fork to try to make a CI
 workflow run. Those are link submissions and plumbing rather than code, and I am not
 counting them as work samples.
@@ -333,10 +333,10 @@ on the VS Code Marketplace, and
 
 **Work somebody else chose to list.**
 [bounty-trap-scan](https://github.com/sujeito-operator/bounty-trap-scan) — two stdlib-only
-scanners over GitHub's open bounty issues. 91 of the 563 open bounty
-issues on GitHub (16.2%), spread across 76 repositories, carry task text
+scanners over GitHub's open bounty issues. 91 of the 560 open bounty
+issues on GitHub (16.2%), spread across 73 repositories, carry task text
 written to make an autonomous contributor paste its own initialization payload into the
-public pull request it opens. The 76 is the breadth of the 563 and
+public pull request it opens. The 73 is the breadth of the 560 and
 not of the 91: **those 91 sit in two repositories and were filed
 by two accounts**, each of them the posting bot of the repository it posts in.
 Read that as concentration rather than as an epidemic — it is one sixth of the labelled
