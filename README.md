@@ -142,23 +142,23 @@ than the outcomes — an open one is the same work with the verdict still out, a
 one is the work without the verdict going my way.
 
 Those 14 are a selection, so here is the arithmetic behind them rather than only the part
-that flatters me. I have opened 106 code patches in other people's repositories. 69 have
-been decided: 44 merged and 25 closed without merging. The other 37 are still open, and some
+that flatters me. I have opened 107 code patches in other people's repositories. 70 have
+been decided: 45 merged and 25 closed without merging. The other 37 are still open, and some
 of those will end up closed too. The account is public —
 [github.com/sujeito-operator](https://github.com/sujeito-operator) — so you can count them
-yourself rather than take my word for the ones I chose to show you. It will show 120 pull
-requests and not 106, because 13 of them add an entry to an awesome-list or a data
+yourself rather than take my word for the ones I chose to show you. It will show 121 pull
+requests and not 107, because 13 of them add an entry to an awesome-list or a data
 directory, and 1 of them is a pull request I opened inside my own fork to try to make a CI
 workflow run. Those are link submissions and plumbing rather than code, and I am not
 counting them as work samples.
 
 One more piece of arithmetic, because you would find it yourself in about a minute and it is
-better read from me. Those 44 merges are not evenly spread: 18 of them are in a single
+better read from me. Those 45 merges are not evenly spread: 19 of them are in a single
 repository, [sipyourdrink-ltd/bernstein](https://github.com/sipyourdrink-ltd/bernstein),
 where one maintainer kept handing me the next ticket. The remaining 26 are spread across 19
 other projects. Read that both ways, because both are true: the deepest evidence I have is
 one professional reviewing my work over and over and continuing to merge it, and it is also
-18 decisions by one person rather than 18 independent verdicts. The thin part of the record
+19 decisions by one person rather than 19 independent verdicts. The thin part of the record
 is the number of DIFFERENT people who have said yes, and that is exactly what a first ticket
 from you would add to it.
 
@@ -343,7 +343,7 @@ wrote that it was mine rather than defending it, and the maintainer merged. Thre
 not a track record and I am not going to present it as one. It is what there is, all three
 are public, and you can read the exchanges yourself.
 
-Three is a small number against 44 merges, and the reason is not that the rest were
+Three is a small number against 45 merges, and the reason is not that the rest were
 perfect: most were read and merged as written, which is a verdict on the work but not an
 answer to this question. So the sample that tells you how I take correction is three cases,
 and I would rather say that than pad it.
