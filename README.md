@@ -135,7 +135,7 @@ and running it yourself instead of paying me is a reasonable thing to do.
 <!-- v26:begin -->
 ## And the cheaper thing, which is a finding rather than a fix
 
-**[One defect class, swept across your whole repository — $450](https://sujeitooperator.gumroad.com/l/zctoobh)**
+**[A defect census — one named class, swept across your whole repository, $450](https://sujeitooperator.gumroad.com/l/zctoobh)**
 
 You name a class — *"every place we marshal a slice that could be nil"*, *"every workflow
 that interpolates `${{ github.event }}` into a shell"*, *"every variable the code reads
@@ -368,7 +368,6 @@ linter's opinion:
   cannot drift, plus docs and changelog. Verified against the real scanner over its own
   fixtures, and their CI matrix reproduced locally and posted in the thread, including the
   two things I could not run here.
-
 
 **What happens when you ask for a change.** That is the question the diffs above cannot
 answer, and it is the one that decides whether this is worth trying, so here are the only
