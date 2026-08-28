@@ -170,9 +170,12 @@ their code without asking me anything.
 
 * [`kirodotdev/KiroCrew#5778`](https://github.com/kirodotdev/KiroCrew/issues/5778) — a wheel
   that a later `rm -rf` deletes but still ships, 48,047,081 bytes in every published image,
-  measured off the registry with the whiteout layer named as the proof. Their maintainer
-  confirmed it on `main` ten minutes later, opened the fix 47 minutes after that, and closed
-  the issue 89 minutes after it arrived.
+  measured off the registry with the whiteout layer named as the proof. A repository
+  collaborator, `bolichen97`, confirmed it on `main` at 11 minutes and opened the fix at
+  48 minutes; a second collaborator, `chenmingwei23`, merged that fix and closed the issue
+  at 89 minutes — every figure measured from the moment the issue arrived. The confirm and
+  the fix are posted by an automated triage pipeline, which you will see when you click;
+  the merge and the close came from a different account.
 * [`Budibase/budibase#19580`](https://github.com/Budibase/budibase/issues/19580) — the
   exhaustive table, which is the part you are actually buying: every `apt` instruction in
   every Dockerfile on their `master`, 12 instances, 1 real, and the 11 benign ones each
