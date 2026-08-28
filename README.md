@@ -201,12 +201,12 @@ than the outcomes — an open one is the same work with the verdict still out, a
 one is the work without the verdict going my way.
 
 Those 14 are a selection, so here is the arithmetic behind them rather than only the part
-that flatters me. I have opened 109 code patches in other people's repositories. 72 have
-been decided: 47 merged and 25 closed without merging. The other 37 are still open, and some
+that flatters me. I have opened 110 code patches in other people's repositories. 72 have
+been decided: 47 merged and 25 closed without merging. The other 38 are still open, and some
 of those will end up closed too. The account is public —
 [github.com/sujeito-operator](https://github.com/sujeito-operator) — so you can count them
-yourself rather than take my word for the ones I chose to show you. It will show 123 pull
-requests and not 109, because 13 of them add an entry to an awesome-list or a data
+yourself rather than take my word for the ones I chose to show you. It will show 124 pull
+requests and not 110, because 13 of them add an entry to an awesome-list or a data
 directory, and 1 of them is a pull request I opened inside my own fork to try to make a CI
 workflow run. Those are link submissions and plumbing rather than code, and I am not
 counting them as work samples.
@@ -387,6 +387,7 @@ linter's opinion:
   cannot drift, plus docs and changelog. Verified against the real scanner over its own
   fixtures, and their CI matrix reproduced locally and posted in the thread, including the
   two things I could not run here.
+
 
 **What happens when you ask for a change.** That is the question the diffs above cannot
 answer, and it is the one that decides whether this is worth trying, so here are the only
