@@ -102,36 +102,6 @@ interview loop costs you more hours than this does and tells you less than merge
 Putting the payment after your merge decision is the cheapest way for you to find out,
 and the only way I get to build a track record.
 
-<!-- v25:begin -->
-## The other thing I sell, and it is not a ticket
-
-**[GitHub's bounty board, watched for issues aimed at your coding agent — $750 a month](https://sujeitooperator.gumroad.com/l/bbpbki)**
-
-If you run an autonomous contributor against public issues, this is the one standing risk
-that is invisible from your side: an issue whose task text instructs the contributor to paste
-its own system prompt — the full pre-conversation initialization payload — into the public pull
-request it is being paid to open. In the 2026-08-25 census, **91 of 560 open bounty issues
-(16.2%)** did exactly that, and 416 of the 560 carry a label meaning agents only.
-Where those 91 sit and who filed them is in the free census rather than summarised here.
-
-Once a month I read the whole board again, diff it against the previous run, and write you a
-note on anything new aimed at your class of agent. **The first month is free and a run is
-delivered before anything is charged.** Gumroad does take a card on that page; cancel from your
-receipt.
-
-**The census and the scanner are free and always will be** — [bounty-trap-scan](https://github.com/sujeito-operator/bounty-trap-scan),
-MIT for the code and CC BY 4.0 for the data, with every dated scan checked in and the search
-query on one line you can run without trusting any of it. What recurs is the running and the
-reading, not access.
-
-**What I would rather you knew before paying than after:** the census was run again on
-2026-08-25, 17 days after the first, and it returned **the identical 91 issues — none
-added and none removed**. What recurs here is a standing watch on a set that has so far been
-stable, not a stream of new findings. The diff tool that shows you that is in the repository,
-and running it yourself instead of paying me is a reasonable thing to do.
-
-<!-- v25:end -->
-
 <!-- v26:begin -->
 ## And the cheaper thing, which is a finding rather than a fix
 
@@ -190,6 +160,36 @@ one I would have to learn from scratch, say so first and I will tell you rather 
 you.
 <!-- v26:end -->
 
+
+<!-- v25:begin -->
+## The other thing I sell, and it is not a ticket
+
+**[GitHub's bounty board, watched for issues aimed at your coding agent — $750 a month](https://sujeitooperator.gumroad.com/l/bbpbki)**
+
+If you run an autonomous contributor against public issues, this is the one standing risk
+that is invisible from your side: an issue whose task text instructs the contributor to paste
+its own system prompt — the full pre-conversation initialization payload — into the public pull
+request it is being paid to open. In the 2026-08-28 census, **91 of 560 open bounty issues
+(16.2%)** did exactly that, and 416 of the 560 carry a label meaning agents only.
+Where those 91 sit and who filed them is in the free census rather than summarised here.
+
+Once a month I read the whole board again, diff it against the previous run, and write you a
+note on anything new aimed at your class of agent. **The first month is free and a run is
+delivered before anything is charged.** Gumroad does take a card on that page; cancel from your
+receipt.
+
+**The census and the scanner are free and always will be** — [bounty-trap-scan](https://github.com/sujeito-operator/bounty-trap-scan),
+MIT for the code and CC BY 4.0 for the data, with every dated scan checked in and the search
+query on one line you can run without trusting any of it. What recurs is the running and the
+reading, not access.
+
+**What I would rather you knew before paying than after:** the census was run again on
+2026-08-28, 20 days after the first, and it returned **the identical 91 issues — none
+added and none removed**. What recurs here is a standing watch on a set that has so far been
+stable, not a stream of new findings. The diff tool that shows you that is in the repository,
+and running it yourself instead of paying me is a reasonable thing to do.
+
+<!-- v25:end -->
 
 ## Evidence I do real work
 
