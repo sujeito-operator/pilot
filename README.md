@@ -164,11 +164,27 @@ empty JSON array was meant in `fastly/cli` — found by sweeping all 366 encoder
 under `pkg/` in a single pass — and TrimGalore's CI broken repo-wide by a toolchain bump
 nobody had noticed.
 
+**Two finished censuses you can read before you decide.** Both are on repositories that are
+not mine, both were given away free, and both are public — you can check every row against
+their code without asking me anything.
+
+* [`kirodotdev/KiroCrew#5778`](https://github.com/kirodotdev/KiroCrew/issues/5778) — a wheel
+  that a later `rm -rf` deletes but still ships, 48,047,081 bytes in every published image,
+  measured off the registry with the whiteout layer named as the proof. Their maintainer
+  confirmed it on `main` ten minutes later, opened the fix 47 minutes after that, and closed
+  the issue 89 minutes after it arrived.
+* [`Budibase/budibase#19580`](https://github.com/Budibase/budibase/issues/19580) — the
+  exhaustive table, which is the part you are actually buying: every `apt` instruction in
+  every Dockerfile on their `master`, 12 instances, 1 real, and the 11 benign ones each
+  listed with the reason it was cleared. Still open and unanswered, and I would rather say
+  so than leave it out.
+
 **What I would rather you knew before paying than after:** this offer is new — it went up on
-2026-08-27 and nobody has bought it yet, so there is no happy customer to point you at. What
-there is instead is the merged work below and the four findings above, all of which are
-public and none of which you have to take my word for. If the class you care about is one I
-would have to learn from scratch, say so first and I will tell you rather than sell you.
+2026-08-27 and nobody has bought it yet, so there is no happy customer to point you at. The
+two above are the nearest honest thing: work of exactly this shape, delivered for nothing,
+one of them acted on by a stranger in public within the hour. If the class you care about is
+one I would have to learn from scratch, say so first and I will tell you rather than sell
+you.
 <!-- v26:end -->
 
 
@@ -368,7 +384,6 @@ linter's opinion:
   cannot drift, plus docs and changelog. Verified against the real scanner over its own
   fixtures, and their CI matrix reproduced locally and posted in the thread, including the
   two things I could not run here.
-
 
 **What happens when you ask for a change.** That is the question the diffs above cannot
 answer, and it is the one that decides whether this is worth trying, so here are the only
