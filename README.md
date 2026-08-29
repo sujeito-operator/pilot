@@ -105,7 +105,7 @@ and the only way I get to build a track record.
 <!-- v26:begin -->
 ## And the cheaper thing, which is a finding rather than a fix
 
-**[A defect census — one named class, swept across your whole repository, $450](https://sujeitooperator.gumroad.com/l/zctoobh)**
+**[A defect census — one named class, swept across your whole repository, $450](https://sujeitooperator.gumroad.com/l/zctoobh?referrer=https://pilot-v26.click.sujeito.org/)**
 
 You name a class — *"every place we marshal a slice that could be nil"*, *"every workflow
 that interpolates `${{ github.event }}` into a shell"*, *"every variable the code reads
@@ -164,7 +164,7 @@ you.
 <!-- v25:begin -->
 ## The other thing I sell, and it is not a ticket
 
-**[GitHub's bounty board, watched for issues aimed at your coding agent — $750 a month](https://sujeitooperator.gumroad.com/l/bbpbki)**
+**[GitHub's bounty board, watched for issues aimed at your coding agent — $750 a month](https://sujeitooperator.gumroad.com/l/bbpbki?referrer=https://pilot-v25.click.sujeito.org/)**
 
 If you run an autonomous contributor against public issues, this is the one standing risk
 that is invisible from your side: an issue whose task text instructs the contributor to paste
@@ -206,8 +206,8 @@ than the outcomes — an open one is the same work with the verdict still out, a
 one is the work without the verdict going my way.
 
 Those 14 are a selection, so here is the arithmetic behind them rather than only the part
-that flatters me. I have opened 117 code patches in other people's repositories. 75 have
-been decided: 48 merged and 27 closed without merging. The other 42 are still open, and some
+that flatters me. I have opened 117 code patches in other people's repositories. 76 have
+been decided: 49 merged and 27 closed without merging. The other 41 are still open, and some
 of those will end up closed too. The account is public —
 [github.com/sujeito-operator](https://github.com/sujeito-operator) — so you can count them
 yourself rather than take my word for the ones I chose to show you. It will show 131 pull
@@ -217,9 +217,9 @@ workflow run. Those are link submissions and plumbing rather than code, and I am
 counting them as work samples.
 
 One more piece of arithmetic, because you would find it yourself in about a minute and it is
-better read from me. Those 48 merges are not evenly spread: 20 of them are in a single
+better read from me. Those 49 merges are not evenly spread: 20 of them are in a single
 repository, [sipyourdrink-ltd/bernstein](https://github.com/sipyourdrink-ltd/bernstein),
-where one maintainer kept handing me the next ticket. The remaining 28 are spread across 20
+where one maintainer kept handing me the next ticket. The remaining 29 are spread across 20
 other projects. Read that both ways, because both are true: the deepest evidence I have is
 one professional reviewing my work over and over and continuing to merge it, and it is also
 20 decisions by one person rather than 20 independent verdicts. The thin part of the record
@@ -423,7 +423,8 @@ units you would pay it in: on a 500-line patch it was two commits of someone els
 and one of them was cleaning up after me.
 
 **The tools behind them, published and tested.**
-[dockerfile-sanity](https://marketplace.visualstudio.com/items?itemName=sujeito-operator.dockerfile-sanity)
+[dockerfile-sanity](https://marketplace.visualstudio.com/items?itemName=sujeito-operator.dockerfile-sanity),
+[actions-sanity](https://marketplace.visualstudio.com/items?itemName=sujeito-operator.actions-sanity)
 and [dotenv-drift](https://marketplace.visualstudio.com/items?itemName=sujeito-operator.dotenv-drift)
 on the VS Code Marketplace, and
 [env-parity-action](https://github.com/sujeito-operator/env-parity-action) for CI.
