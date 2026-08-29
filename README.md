@@ -188,6 +188,11 @@ reading, not access.
 added and none removed**. What recurs here is a standing watch on a set that has so far been
 stable, not a stream of new findings. The diff tool that shows you that is in the repository,
 and running it yourself instead of paying me is a reasonable thing to do.
+And a second thing: of the 1,510 accounts that comment anywhere on that board,
+every one ever seen on an asking issue was already inside the 4 owners that host them —
+**none from outside**. That is a floor and not a total, since an agent can read an issue and
+never comment, but on the visible evidence these have caught nobody who was not already
+part of the same activity.
 
 <!-- v25:end -->
 
