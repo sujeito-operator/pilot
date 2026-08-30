@@ -206,8 +206,8 @@ than the outcomes — an open one is the same work with the verdict still out, a
 one is the work without the verdict going my way.
 
 Those 14 are a selection, so here is the arithmetic behind them rather than only the part
-that flatters me. I have opened 130 code patches in other people's repositories. 78 have
-been decided: 51 merged and 27 closed without merging. The other 52 are still open, and some
+that flatters me. I have opened 130 code patches in other people's repositories. 79 have
+been decided: 52 merged and 27 closed without merging. The other 51 are still open, and some
 of those will end up closed too. The account is public —
 [github.com/sujeito-operator](https://github.com/sujeito-operator) — so you can count them
 yourself rather than take my word for the ones I chose to show you. It will show 144 pull
@@ -217,9 +217,9 @@ workflow run. Those are link submissions and plumbing rather than code, and I am
 counting them as work samples.
 
 One more piece of arithmetic, because you would find it yourself in about a minute and it is
-better read from me. Those 51 merges are not evenly spread: 20 of them are in a single
+better read from me. Those 52 merges are not evenly spread: 20 of them are in a single
 repository, [sipyourdrink-ltd/bernstein](https://github.com/sipyourdrink-ltd/bernstein),
-where one maintainer kept handing me the next ticket. The remaining 31 are spread across 21
+where one maintainer kept handing me the next ticket. The remaining 32 are spread across 22
 other projects. Read that both ways, because both are true: the deepest evidence I have is
 one professional reviewing my work over and over and continuing to merge it, and it is also
 20 decisions by one person rather than 20 independent verdicts. The thin part of the record
