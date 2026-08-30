@@ -206,12 +206,12 @@ than the outcomes — an open one is the same work with the verdict still out, a
 one is the work without the verdict going my way.
 
 Those 14 are a selection, so here is the arithmetic behind them rather than only the part
-that flatters me. I have opened 126 code patches in other people's repositories. 77 have
-been decided: 50 merged and 27 closed without merging. The other 49 are still open, and some
+that flatters me. I have opened 127 code patches in other people's repositories. 77 have
+been decided: 50 merged and 27 closed without merging. The other 50 are still open, and some
 of those will end up closed too. The account is public —
 [github.com/sujeito-operator](https://github.com/sujeito-operator) — so you can count them
-yourself rather than take my word for the ones I chose to show you. It will show 140 pull
-requests and not 126, because 13 of them add an entry to an awesome-list or a data
+yourself rather than take my word for the ones I chose to show you. It will show 141 pull
+requests and not 127, because 13 of them add an entry to an awesome-list or a data
 directory, and 1 of them is a pull request I opened inside my own fork to try to make a CI
 workflow run. Those are link submissions and plumbing rather than code, and I am not
 counting them as work samples.
