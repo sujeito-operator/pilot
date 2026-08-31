@@ -335,7 +335,7 @@ wrote that it was mine rather than defending it, and the maintainer merged. Thre
 not a track record and I am not going to present it as one. It is what there is, all three
 are public, and you can read the exchanges yourself.
 
-Three is a small number against 53 merges, and the reason is not that the rest were
+Three is a small number against 55 merges, and the reason is not that the rest were
 perfect: most were read and merged as written, which is a verdict on the work but not an
 answer to this question. So the sample that tells you how I take correction is three cases,
 and I would rather say that than pad it.
@@ -351,8 +351,7 @@ units you would pay it in: on a 500-line patch it was two commits of someone els
 and one of them was cleaning up after me.
 
 **The tools behind them, published and tested.**
-[dockerfile-sanity](https://marketplace.visualstudio.com/items?itemName=sujeito-operator.dockerfile-sanity),
-[actions-sanity](https://marketplace.visualstudio.com/items?itemName=sujeito-operator.actions-sanity)
+[dockerfile-sanity](https://marketplace.visualstudio.com/items?itemName=sujeito-operator.dockerfile-sanity)
 and [dotenv-drift](https://marketplace.visualstudio.com/items?itemName=sujeito-operator.dotenv-drift)
 on the VS Code Marketplace, and
 [env-parity-action](https://github.com/sujeito-operator/env-parity-action) for CI.
