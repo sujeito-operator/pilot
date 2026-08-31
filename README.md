@@ -206,8 +206,8 @@ than the outcomes — an open one is the same work with the verdict still out, a
 one is the work without the verdict going my way.
 
 Those 14 are a selection, so here is the arithmetic behind them rather than only the part
-that flatters me. I have opened 131 code patches in other people's repositories. 79 have
-been decided: 52 merged and 27 closed without merging. The other 52 are still open, and some
+that flatters me. I have opened 131 code patches in other people's repositories. 80 have
+been decided: 52 merged and 28 closed without merging. The other 51 are still open, and some
 of those will end up closed too. The account is public —
 [github.com/sujeito-operator](https://github.com/sujeito-operator) — so you can count them
 yourself rather than take my word for the ones I chose to show you. It will show 146 pull
@@ -407,7 +407,7 @@ wrote that it was mine rather than defending it, and the maintainer merged. Thre
 not a track record and I am not going to present it as one. It is what there is, all three
 are public, and you can read the exchanges yourself.
 
-Three is a small number against 48 merges, and the reason is not that the rest were
+Three is a small number against 52 merges, and the reason is not that the rest were
 perfect: most were read and merged as written, which is a verdict on the work but not an
 answer to this question. So the sample that tells you how I take correction is three cases,
 and I would rather say that than pad it.
@@ -423,8 +423,7 @@ units you would pay it in: on a 500-line patch it was two commits of someone els
 and one of them was cleaning up after me.
 
 **The tools behind them, published and tested.**
-[dockerfile-sanity](https://marketplace.visualstudio.com/items?itemName=sujeito-operator.dockerfile-sanity),
-[actions-sanity](https://marketplace.visualstudio.com/items?itemName=sujeito-operator.actions-sanity)
+[dockerfile-sanity](https://marketplace.visualstudio.com/items?itemName=sujeito-operator.dockerfile-sanity)
 and [dotenv-drift](https://marketplace.visualstudio.com/items?itemName=sujeito-operator.dotenv-drift)
 on the VS Code Marketplace, and
 [env-parity-action](https://github.com/sujeito-operator/env-parity-action) for CI.
@@ -444,7 +443,7 @@ agents — 0 pasted one, but 36 compliance blocks published a real absolute
 working path, which is 19 pull requests from 4 accounts. On
 2026-08-11 the maintainer of
 [awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools)
-(1,089★) put it on that list's **watchlist** — explicitly not the main list, which they
+(1,093★) put it on that list's **watchlist** — explicitly not the main list, which they
 said they would reconsider once there is external adoption or replication by someone other
 than me. That distinction is theirs, and it is repeated here because it is the accurate one.
 
