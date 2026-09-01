@@ -134,8 +134,8 @@ than the outcomes — an open one is the same work with the verdict still out, a
 one is the work without the verdict going my way.
 
 Those 14 are a selection, so here is the arithmetic behind them rather than only the part
-that flatters me. I have opened 143 code patches in other people's repositories. 87 have
-been decided: 55 merged and 32 closed without merging. The other 56 are still open, and some
+that flatters me. I have opened 143 code patches in other people's repositories. 90 have
+been decided: 58 merged and 32 closed without merging. The other 53 are still open, and some
 of those will end up closed too. The account is public —
 [github.com/sujeito-operator](https://github.com/sujeito-operator) — so you can count them
 yourself rather than take my word for the ones I chose to show you. It will show 159 pull
@@ -145,9 +145,9 @@ workflow run. Those are link submissions and plumbing rather than code, and I am
 counting them as work samples.
 
 One more piece of arithmetic, because you would find it yourself in about a minute and it is
-better read from me. Those 55 merges are not evenly spread: 20 of them are in a single
+better read from me. Those 58 merges are not evenly spread: 20 of them are in a single
 repository, [sipyourdrink-ltd/bernstein](https://github.com/sipyourdrink-ltd/bernstein),
-where one maintainer kept handing me the next ticket. The remaining 35 are spread across 25
+where one maintainer kept handing me the next ticket. The remaining 38 are spread across 25
 other projects. Read that both ways, because both are true: the deepest evidence I have is
 one professional reviewing my work over and over and continuing to merge it, and it is also
 20 decisions by one person rather than 20 independent verdicts. The thin part of the record
@@ -351,7 +351,8 @@ units you would pay it in: on a 500-line patch it was two commits of someone els
 and one of them was cleaning up after me.
 
 **The tools behind them, published and tested.**
-[dockerfile-sanity](https://marketplace.visualstudio.com/items?itemName=sujeito-operator.dockerfile-sanity)
+[dockerfile-sanity](https://marketplace.visualstudio.com/items?itemName=sujeito-operator.dockerfile-sanity),
+[actions-sanity](https://marketplace.visualstudio.com/items?itemName=sujeito-operator.actions-sanity)
 and [dotenv-drift](https://marketplace.visualstudio.com/items?itemName=sujeito-operator.dotenv-drift)
 on the VS Code Marketplace, and
 [env-parity-action](https://github.com/sujeito-operator/env-parity-action) for CI.
